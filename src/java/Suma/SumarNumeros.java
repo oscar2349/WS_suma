@@ -9,6 +9,7 @@ import javax.jws.WebParam;
 public class SumarNumeros {
 
 
+    //metodos
     @WebMethod(operationName = "sumar")
     public int sumar(@WebParam(name = "Numero1") int Numero1, @WebParam(name = "Numero2") int Numero2) {
         
